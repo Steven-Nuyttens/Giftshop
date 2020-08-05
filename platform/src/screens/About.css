@@ -1,0 +1,19 @@
+.AboutContainer {
+    display: flex;
+    text-align: center;
+
+}
+
+.TeamPics {
+    display: grid;
+    width: 25%;
+}
+
+img {
+    width: 100%;
+}
+
+.AboutText {
+    width: 75%;
+    margin: 0 100px;
+}
