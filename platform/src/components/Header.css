@@ -1,0 +1,10 @@
+.HeaderWrapper {
+    display: flex;
+    height: 150px;
+    background-color: turquoise;
+    justify-content: space-evenly;
+}
+
+.pages {
+    text-decoration: none;
+}
