@@ -3,8 +3,16 @@
     height: 150px;
     background-color: turquoise;
     justify-content: space-evenly;
+    width: 100%;
 }
 
 .pages {
     text-decoration: none;
+}
+.HeaderImg {
+    width: 10%;
+}
+
+.HeaderImg img {
+    width: 100%;
 }

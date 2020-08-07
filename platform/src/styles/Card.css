@@ -1,0 +1,19 @@
+.CardWrapper {
+    width: 300px;
+    height: 300px;
+    border: 3px solid;
+}
+
+.CardImg {
+    background-color: turquoise;
+    padding: 2px;
+}
+
+.CardDescription {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.LinkToProduct {
+    text-decoration: underline;
+}

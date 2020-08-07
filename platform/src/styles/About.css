@@ -1,0 +1,38 @@
+.AboutContainer {
+    display: flex;
+    text-align: center;
+
+}
+
+.AboutContainer ul {
+    display: inline-block;    
+}
+
+.TeamPics {
+    display: grid;
+    width: 25%;
+}
+
+.TeamPics img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.AboutText {
+    width: 75%;
+    margin: 0 100px;
+    font-size: 40px;
+}
+
+ul {
+    text-align: left;
+    list-style-type: none;
+}
+
+strong {
+    color: turquoise;
+}
+
+a {
+    text-decoration: underline;
+}

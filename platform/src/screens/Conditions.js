@@ -1,32 +1,44 @@
 import React from 'react'
-import {BrowserRouter, Route, Link} from 'react-router-dom'
-import Conditions from './Conditions'
-import PrivacyVerklaring from './PrivacyVerklaring'
 
 
 
+class Conditions extends React.Component {
 
-class Afhaling extends React.Component {
-
-    render () {
+    render() {
         return (
             <div>
-                <h3>Afhaling / Levering</h3>
-                <p>We combineren dit met onze huidige job in het onderwijs.
-                    Bekijk daarom zeker de afhaal- en leveringstermijn en onze afhaal- en leveringsmogelijkheden hieronder.</p>
+                <h4>Algemene Voorwaarden</h4>
+                <p>Welkom op de webshop van JTM Gifts.</p>
+                <p>Hieronder vindt u onze algemen voorwaarden.</p>
 
-                <h4>Afhaal- en leveringstermijn</h4>
-                <p>We rekenen voor elke mand uit ons vast en seizoensgebonden assortiment twee werkdagen* na bevestiging van uw bestelling 
-                    én ontvangst van betaling om ze klaar te maken. 
-                    Concreet betekent dit: wie op maandag bestelt voor 19u, 
-                    kan zijn/haar bestelling de eerstvolgende woensdag* afhalen of laten leveren. 
-                    Na 19u wordt de datum verplaatst naar de eerstvolgende vrijdag/zaterdag (naar keuze). 
-                    Wie op woensdag bestelt voor 19u, kan zijn/haar bestelling de eerstvolgende vrijdag/zaterdag* (naar keuze) afhalen of laten leveren. 
-                    Na 19u wordt de datum verplaatst naar de eerstvolgende woensdag.
-                    Voor gepersonaliseerde manden op maat rekenen wij minstens vijf werkdagen na bevestiging van uw bestelling om deze af te halen of te leveren. 
-                    Wij geven steeds een seintje wanneer uw bestelling klaar is en spreken een afhaal- of leverdatum af via mail, 
-                    rekening houdend met de door de klant opgegeven beschikbare dag(en). </p>
-                    <div>
+                <h4>1. ALGEMEEN</h4>
+                <p>JTMGifts.be is een online webshop waar geschenkmanden aangekocht kunnen worden. 
+                    Deze kunnen in België geleverd worden of op locatie afgehaald worden. 
+                    De geschenkmanden kunnen volgende producten bevatten: chocolade, cava, wijn, delicatessen, bier, 
+                    verzorgingsproducten, verbruiksmiddelen, snoep, kruiden, .. .
+                    Mogen wij u vragen om even de tijd te nemen om deze voorwaarden aandachtig door te nemen. 
+                    Deze zijn van toepassing op bestellingen online, via mail en telefoon. Door gebruik te maken van onze website en ons aanbod te bekijken, 
+                    gaat u akkoord met de algemene voorwaarden alsook met de privacyverklaring.</p>
+
+                <h4>2. PRODUCTEN</h4>
+                <p>De samenstelling van onze producten vindt u steeds terug op de etikettering van het product (of op aanvraag).
+                    Deze samenstelling kan ten allen tijde gewijzigd worden. </p>
+
+
+                <h4>3. PRIJZEN</h4>
+                <p>Alle prijzen op deze website zijn in euro, inclusief btw en exclusief verzendkosten.</p>
+
+
+                <h4>4. BESTELLEN EN BETALEN</h4>
+                <p>Een overeenkomst komt slechts tot stand na acceptatie van je bestelling door JTMGifts.
+                    JTMGifts behoudt zich het recht voor om (om welke reden dan ook) bestellingen niet uit te voeren of op een later tijdstip uit te voeren.
+                    JTMGifts stelt hiervan de klant binnen 2 werkdagen schriftelijk (per e-mail) op de hoogte.
+                    Wij verzenden de bestelling pas uit na ontvangst van betaling via Bancontact/Mister Cash of overschrijving.
+                    Hou rekening met minstens 2 werkdagen om de mand klaar te maken door JTMGifts.</p>
+
+
+                <h4>5. AFHALEN EN LEVEREN</h4>
+                <div>
                         <h4>Afhalen</h4>
                         <p><strong>Afhalen</strong> in Wambeek is mogelijk op:</p>
                         <ul>
@@ -98,20 +110,25 @@ class Afhaling extends React.Component {
                                 </ul>
                             </div>
                             <p>* tenzij anders afgesproken via mail: info@jtmgifts.be</p>
-                           
                         </div>
-                    </div>
-                    <div>
-                        <BrowserRouter>
-                        <Route path='/Conditions' component={Conditions}/>
-                        <Link to='/Conditions'>Algemene voorwaarden en privacy</Link>
-                        <Route path='/PrivacyVerklaring' component={PrivacyVerklaring}/>
-                        <Link to='/PrivacyVerklaring'>Privacyverklaring</Link>
-                        </BrowserRouter>
-                    </div>
+                        </div>
+
+
+                <h4>6. HERROEPINGSRECHT EN ANNULATIE</h4>
+                <p>Aangekochte goederen kunnen geretourneerd worden indien het product ongebruikt is en de verpakking ongeopend. 
+                    Goederen die specifiek ontworpen zijn of snel kunnen bederven, worden niet teruggenomen. 
+                    Bederfelijke producten kunnen 2 dagen na levering/ophaling herroepen worden. Andere producten kunnen 14 dagen herroepen worden. 
+                    Retourneren is mogelijk na contact via mail: info@jtmgifts.be.
+                    Een bestelling kan uiterlijk 2 werkdagen voor de effectieve levering/ophaling geannuleerd worden.</p>
+
+                <h4>7. AANSPRAKELIJKHEID</h4>
+                    <p>Iedere aansprakelijkheid van JTMGifts voor welke schade van welke aard ook wordt uitdrukkelijk uitgesloten. 
+                        JTMGifts aanvaardt geen aansprakelijkheid voor eventuele schade voortvloeiend uit het gebruik van de producten van JTMGifts.</p>
+
             </div>
         )
     }
 }
 
-export default Afhaling;
+
+export default Conditions;
