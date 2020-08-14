@@ -11,6 +11,7 @@
 }
 .HeaderImg {
     width: 10%;
+    display: flex;
 }
 
 .HeaderImg img {

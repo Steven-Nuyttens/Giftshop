@@ -1,5 +1,6 @@
 import React from 'react'
 import Form from './Form'
+import Messages from './Messages'
 
 
 class Contact extends React.Component {
@@ -10,6 +11,7 @@ class Contact extends React.Component {
                 <h3>Contact</h3>
                 <p>Neem gerust contact op met ons voor meer info</p>
                 <Form />
+                <Messages />
             </div>
         )
     }
